@@ -1,0 +1,23 @@
+#pop-states
+tanchuang = "task/pop-states/tanchuang" #新年弹窗
+tanchuang2 = "task/pop-states/tanchuang2" #活动弹窗2
+
+#pop-change
+tanchuang_tanchuang2_01 = "task/pop-change/tanchuang_tanchuang2_01"
+tanchuang2_zhuye_01 = "task/pop-change/tanchuang2_zhuye_01"
+
+#page-states
+zhuye = "task/page-states/zhuye" #主页
+begin = "task/page-states/begin" #开始游戏
+caidan = "task/page-states/caidan" #菜单
+shezhi = "task/page-states/shezhi" #设置
+
+#page-change
+zhuye_caidan_01 = "task/page-change/zhuye_caidan_01"
+begin_tanchuang_01 = "task/page-change/begin_tanchuang_01"
+caidan_shezhi_01 = "task/page-change/caidan_shezhi_01"
+caidan_zhuye_01 = "task/page-change/caidan_zhuye_01"
+shezhi_fwq_01 = "task/page-change/shezhi_fwq_01"
+shezhi_caidan_01 = "task/page-change/shezhi_caidan_01"
+fwq_shezhi_01 = "task/page-change/fwq_shezhi_01"
+

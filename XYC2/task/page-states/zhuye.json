@@ -1,0 +1,27 @@
+{
+  "version": "0.4.29",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "state",
+      "text": "",
+      "points": [
+        [
+          227.51069900142656,
+          865.0855920114124
+        ],
+        [
+          302.4393723252497,
+          929.1155492154066
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "zhuye.png",
+  "imageData": null,
+  "imageHeight": 955,
+  "imageWidth": 524
+}
