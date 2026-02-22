@@ -1,23 +1,71 @@
 #pop-states
 tanchuang = "task/pop-states/tanchuang" #新年弹窗
 tanchuang2 = "task/pop-states/tanchuang2" #活动弹窗2
+huode = "task/pop-states/huode" #获得
 
 #pop-change
 tanchuang_tanchuang2_01 = "task/pop-change/tanchuang_tanchuang2_01"
 tanchuang2_zhuye_01 = "task/pop-change/tanchuang2_zhuye_01"
+huode_shangdian_01 = "task/pop-change/huode_shangdian_01"
 
 #page-states
 zhuye = "task/page-states/zhuye" #主页
 begin = "task/page-states/begin" #开始游戏
 caidan = "task/page-states/caidan" #菜单
 shezhi = "task/page-states/shezhi" #设置
+fwq = "task/page-states/fwq" #选择服务器
+zhp = "task/page-states/zhp" #杂货铺
+qiandao = "task/page-states/qiandao" #每日签到
+shangdian = "task/page-states/shangdian" #商店
+lingdi = "task/page-states/lingdi" #领地
+shuaxin = "task/page-states/shuaxin" #刷新
+ycfrd = "task/page-states/ycfrd" #渔村繁荣度
+ldpaihang = "task/page-states/ldpaihang" #领地排行榜
+djsd = "task/page-states/djsd" #道具商店
+sxklb = "task/page-states/sxklb" #刷新卡礼包
+fhlb = "task/page-states/fhlb" #孵化礼包
+sclb = "task/page-states/sclb" #饲料礼包
+szpfb = "task/page-states/szpfb" #水族评分榜
 
 #page-change
+zhuye_lingdi_01 = "task/page-change/zhuye_lingdi_01"
 zhuye_caidan_01 = "task/page-change/zhuye_caidan_01"
+zhuye_shangdian_01 = "task/page-change/zhuye_shangdian_01"
+zhuye_ycfrd_01 = "task/page-change/zhuye_ycfrd_01"
 begin_tanchuang_01 = "task/page-change/begin_tanchuang_01"
 caidan_shezhi_01 = "task/page-change/caidan_shezhi_01"
 caidan_zhuye_01 = "task/page-change/caidan_zhuye_01"
+caidan_zhp_01 = "task/page-change/caidan_zhp_01"
+caidan_qiandao_01 = "task/page-change/caidan_qiandao_01"
 shezhi_fwq_01 = "task/page-change/shezhi_fwq_01"
 shezhi_caidan_01 = "task/page-change/shezhi_caidan_01"
 fwq_shezhi_01 = "task/page-change/fwq_shezhi_01"
+zhp_caidan_01 = "task/page-change/zhp_caidan_01"
+qiandao_caidan_01 = "task/page-change/qiandao_caidan_01"
+shangdian_zhuye_01 = "task/page-change/shangdian_zhuye_01"
+lingdi_shuaxin_01 = "task/page-change/lingdi_shuaxin_01"
+lingdi_zhuye_01 = "task/page-change/lingdi_zhuye_01"
+lingdi_ldpaihang_01 = "task/page-change/lingdi_ldpaihang_01"
+lingdi_djsd_01 = "task/page-change/lingdi_djsd_01"
+lingdi_sxklb_01 = "task/page-change/lingdi_sxklb_01"
+shuaxin_lingdi_01 = "task/page-change/shuaxin_lingdi_01"
+ycfrd_zhuye_01 = "task/page-change/ycfrd_zhuye_01"
+ycfrd_hszlb_01 = "task/page-change/ycfrd_hszlb_01"
+ycfrd_szpfb_01 = "task/page-change/ycfrd_szpfb_01"
+ldpaihang_lingdi_01 = "task/page-change/ldpaihang_lingdi_01"
+djsd_lingdi_01 = "task/page-change/djsd_lingdi_01"
+sxklb_lingdi_01 = "task/page-change/sxklb_lingdi_01"
+sxklb_fhlb_01 = "task/page-change/sxklb_fhlb_01"
+fhlb_sxklb_01 = "task/page-change/fhlb_sxklb_01"
+fhlb_sclb_01 = "task/page-change/fhlb_sclb_01"
+fhlb_lingdi_01 = "task/page-change/fhlb_lingdi_01"
+sclb_sxklb_01 = "task/page-change/sclb_sxklb_01"
+sclb_fhlb_01 = "task/page-change/sclb_fhlb_01"
+sclb_lingdi_01 = "task/page-change/sclb_lingdi_01"
+hszlb_ycfrd_01 = "task/page-change/hszlb_ycfrd_01"
+hszlb_szpfb_01 = "task/page-change/hszlb_szpfb_01"
+hszlb_zhuye_01 = "task/page-change/hszlb_zhuye_01"
+szpfb_ycfrd_01 = "task/page-change/szpfb_ycfrd_01"
+szpfb_hszlb_01 = "task/page-change/szpfb_hszlb_01"
+szpfb_zhuye_01 = "task/page-change/szpfb_zhuye_01"
 
