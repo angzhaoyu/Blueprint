@@ -254,7 +254,7 @@ class BlueprintEditor(QMainWindow):
         self.act_imp  = m.addAction("导入图片");  self.act_imp.setShortcut("Ctrl+I")
         self.act_cap  = m.addAction("截图导入");  self.act_cap.setShortcut("Ctrl+T")
         m.addSeparator()
-        self.act_export = m.addAction("导出到 task/"); self.act_export.setShortcut("Ctrl+E")
+        self.act_export = m.addAction("导出到 tasks/"); self.act_export.setShortcut("Ctrl+E")
         # 删除了 self.act_win
 
 
@@ -339,7 +339,7 @@ class BlueprintEditor(QMainWindow):
             QMessageBox.warning(self, "提示", "请先打开或新建项目")
             return
         self._on_save()
-        out = str(self.project.project_dir / "task")
+        out = str(self.project.project_dir / "tasks")
         from blueprint_export import export_blueprint
         ok = export_blueprint(str(self.project.project_dir), out)
         if ok:

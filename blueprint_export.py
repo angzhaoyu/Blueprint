@@ -1,11 +1,11 @@
 """
 blueprint_export.py
-从蓝图 project.json 导出为 task/ 目录结构，兼容 StateManager
+从蓝图 project.json 导出为 tasks/ 目录结构，兼容 StateManager
 
 用法:
     python blueprint_export.py <蓝图项目目录> [输出目录]
     python blueprint_export.py ./blueprint/程序1
-    python blueprint_export.py ./blueprint/程序1 ./task
+    python blueprint_export.py ./blueprint/程序1 ./tasks
 """
 
 import json
@@ -43,7 +43,7 @@ def sanitize_name(name):
 def export_blueprint(project_dir, output_dir=None):
     """
     读取蓝图 project.json，导出：
-      task/
+      tasks/
         pop-states/     弹出页面 身份图片 + json
         pop-change/     弹出页面 链接 json
         page-states/    普通页面 身份图片 + json
@@ -61,7 +61,7 @@ def export_blueprint(project_dir, output_dir=None):
         data = json.load(f)
 
     if output_dir is None:
-        output_dir = project_dir.parent / "task"
+        output_dir = project_dir.parent / "tasks"
     else:
         output_dir = Path(output_dir).resolve()
 
@@ -149,7 +149,7 @@ def export_blueprint(project_dir, output_dir=None):
             # txt 行
             comment = f" #{cn_name}" if cn_name else ""
             txt[states_dir].append(
-                f'{en_name} = "task/{states_dir}/{en_name}"{comment}'
+                f'{en_name} = "tasks/{states_dir}/{en_name}"{comment}'
             )
 
         # ====== 链接框 → change ======
@@ -204,7 +204,7 @@ def export_blueprint(project_dir, output_dir=None):
                     json.dump(labelme, f, ensure_ascii=False, indent=2)
 
                 txt[change_dir].append(
-                    f'{change_name} = "task/{change_dir}/{change_name}"'
+                    f'{change_name} = "tasks/{change_dir}/{change_name}"'
                 )
                 
     # ====== 生成 states.txt ======
@@ -237,7 +237,7 @@ if __name__ == "__main__":
         print()
         print("例:")
         print("  python blueprint_export.py ./blueprint/幸福小渔村")
-        print("  python blueprint_export.py ./blueprint/幸福小渔村 ./task")
+        print("  python blueprint_export.py ./blueprint/幸福小渔村 ./tasks")
         sys.exit(1)
     # python blueprint_export.py XYC2 ./XYC2
     proj = sys.argv[1]
